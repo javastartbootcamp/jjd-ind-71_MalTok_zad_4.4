@@ -1,4 +1,4 @@
-package pl.javastart.task.model;
+package pl.javastart.task.logic;
 
 public class Offer {
 
@@ -6,11 +6,14 @@ public class Offer {
     private double value;
     private double percentage;
 
+    Offer() {
+    }
+
     public boolean isValid() {
         return valid;
     }
 
-    public void setValid(boolean valid) {
+    void setValid(boolean valid) {
         this.valid = valid;
     }
 
@@ -18,7 +21,7 @@ public class Offer {
         return value;
     }
 
-    public void setValue(double value) {
+    void setValue(double value) {
         this.value = value;
     }
 
@@ -26,7 +29,7 @@ public class Offer {
         return percentage;
     }
 
-    public void setPercentage(double percentage) {
+    void setPercentage(double percentage) {
         this.percentage = percentage;
     }
 }

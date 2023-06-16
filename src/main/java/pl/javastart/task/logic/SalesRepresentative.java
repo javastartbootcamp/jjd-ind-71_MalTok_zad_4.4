@@ -1,7 +1,5 @@
 package pl.javastart.task.logic;
 
-import pl.javastart.task.model.Offer;
-
 public class SalesRepresentative {
 
     private Config config;

@@ -1,8 +1,6 @@
 package pl.javastart.task.app;
 
-import pl.javastart.task.model.Offer;
-import pl.javastart.task.logic.SalesRepresentative;
-import pl.javastart.task.service.CustomerService;
+import pl.javastart.task.logic.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,6 +15,12 @@ public class Main {
 //        offer.valid = true;
 //        offer.percentage = -0.5;
 //        offer.value = 2_000_000;
+
+//        Offer offer1 = new Offer();
+//
+//        Offer offer = salesRepresentative.createLoanOffer(1_000_000, 1000);
+//        offer.setPercentage(-5);
+//        offer.setValid(true);
 
         CustomerService customerService = new CustomerService();
         customerService.payoutOffer(offer);

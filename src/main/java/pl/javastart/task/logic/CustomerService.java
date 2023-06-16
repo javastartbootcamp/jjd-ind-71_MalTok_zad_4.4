@@ -1,6 +1,4 @@
-package pl.javastart.task.service;
-
-import pl.javastart.task.model.Offer;
+package pl.javastart.task.logic;
 
 public class CustomerService {
     public void payoutOffer(Offer offer) {
